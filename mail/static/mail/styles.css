@@ -1,0 +1,242 @@
+textarea {min-height: 400px;}
+
+hr {
+    margin: 0.8em;
+}
+
+.wrapper {
+    display: flex;
+    width:100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    width: 18%;
+}
+
+.sidebar-option {
+    margin: 0.6em;
+    font-size: 0.9rem;
+}
+
+.sidebar-option a{
+    font-size: 0.9rem;
+    color: #505050;
+    vertical-align: top;
+
+}
+
+#compose {
+    border-radius:  24px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    color: #505050;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    border: lightgray solid 1px;
+    box-shadow: 0 0.1em 0.2em 0 lightgray;
+    padding: 0.8em 1.3em 0.8em 1em;
+    margin-bottom: 1.2em;
+   
+}
+
+#compose img{
+    width: 1rem;
+}
+
+#web-head {margin-top: 1em;}
+
+.col-4 {
+    display:flex;
+    align-items: center;
+}
+
+#web-head img{
+    width: 7rem;
+    display: block;
+}
+
+#menu-btn-left {
+    display:flex;
+    flex-direction: row;
+}
+
+#menu-btn-left button {
+    margin-right: 1em;
+}
+
+.circle {
+    border: none;
+    background-color: palevioletred;
+    border-radius: 50%;
+    padding: 0.6em 1em 0.6em 1em;
+    color: white;
+}
+
+#menu-btn-left button i{
+    display:flex;
+    align-items: center;
+}
+
+#menu-btn-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position:absolute;
+    right:0em;
+    margin: 0.5em 1em;
+}
+
+#menu-btn-right a {
+    color: grey;
+    margin-right: 0.8em;
+    text-align: right;
+}
+
+
+.emails-row {
+    border-bottom: 0.1rem solid lightgrey;
+    line-height: 2.7em;
+    font-size: 0.9rem;
+}
+
+.emails-row:hover {
+    border-bottom: 0.2rem solid lightgrey; 
+    border-left: 0.08rem solid lightgrey;
+    border-right: 0.08rem solid lightgrey;
+}
+
+.input-group-prepend span{
+    padding-left:1em;
+    padding-right:0.25em;
+    border: none;
+    background-color: whitesmoke;
+
+}
+
+.form-control {
+    border-left:none;
+    background-color: whitesmoke;
+    border: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.icon-btn {
+    border: none;
+    color: grey;
+    background-color: white;
+    
+}
+
+.btn-list {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    align-items: center;
+}
+
+.timestamp {
+    text-align: right;
+    margin:0em;
+    width: 100%;
+}
+
+.select-btn {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0.1em;
+}
+
+.select-btn button{
+    display:flex;
+    align-items: center;
+    color: lightgrey;
+    font-size: 1.3rem;
+    background-color: white;
+    border: none;
+    padding:0.2em;
+}
+
+.emails-row:hover .select-btn button{
+    color: grey;
+}
+
+
+
+.emails-row .row { width: 80%;}
+
+#email-view .col p {
+    font-size: 0.8rem;
+    margin-bottom: 0.3em;
+}
+
+#info {
+    font-size: 1rem;
+    padding:0;
+    vertical-align: bottom;
+}
+
+#email-view span {
+    vertical-align: bottom;
+    margin-left: 1em;
+}
+
+
+#email-view .row { margin-right: 2em;}
+
+
+#email-view h4 {
+    margin-left: 8.2%;
+    margin-bottom: 1.2rem;
+    font-weight: normal;
+}
+
+#email-btns { 
+    margin-left: 8.2%;
+    margin-top: 1.5em;
+}
+
+#email-btns button{
+    font-size: 0.8rem;
+    border-color: lightgray;
+}
+
+#email-btns button span {
+    font-size: 1.4rem;
+}
+
+#compose-view {
+    border: 1px solid lightgray;
+    padding: 1em;
+    margin-right: 3em;
+}
+
+#compose-view .input-group-text {
+    background-color: white;
+}
+
+#compose-view .form-control {
+    background-color: white;
+    color: black;
+}
+
+#compose-view .form-group {
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
